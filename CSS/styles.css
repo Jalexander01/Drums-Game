@@ -1,6 +1,8 @@
 body {
   text-align: center;
   background-color: #283149;
+
+
 }
 
 h1 {
@@ -15,8 +17,11 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
-
+.hello{
+  background-color: blue;
+}
 .w {
+  background-image: url("images/tom1.png");
 
 }
 
@@ -63,6 +68,7 @@ footer {
 }
 
 .drum {
+
   outline: none;
   border: 10px solid #404B69;
   font-size: 5rem;
