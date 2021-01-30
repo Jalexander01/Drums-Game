@@ -1,26 +1,27 @@
 
 var numberOfButton = document.querySelectorAll(".drum").length;
 
-
+// scan for click events or mouse press
 for (var i = 0; i < numberOfButton; i++){
   document.querySelectorAll("button")[i].addEventListener("click", function(){
 
    var buttonInnerHTML = this.innerHTML;
    makeSound(buttonInnerHTML);
 
-
-
   });
 
 }
 
 
+// scan for keyboard keys
 document.addEventListener("keypress", function(event) {
 
   makeSound(event.key);
 
 });
 
+
+// funtion to make sound
 function makeSound(key){
 
   switch (key) {
