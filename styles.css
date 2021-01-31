@@ -18,6 +18,10 @@ footer {
   font-family: sans-serif;
 }
 
+.main-picture{
+ text-align: left;
+}
+
 .w {
   background-image: url("images/tom1.png");
 }
